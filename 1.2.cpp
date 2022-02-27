@@ -32,7 +32,7 @@ extern int vvod()
 extern int menu()
 {
 	int ch = 0;
-	while (ch < 1 || ch > 8) {
+	while (ch < 1 || ch > 9) {
 		printf("\nВыберете действие\n");
 		printf("\n1. Формирование списка студентов\n");
 		printf("2. Вывести список студентов\n");
