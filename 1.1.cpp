@@ -3,7 +3,8 @@
 int main()
 {
 	setlocale(LC_ALL, "rus");
-
+	system("chcp 1251");
+	
 	int ch = 0;
 	while (ch < 1 || ch > 2) {
 
